@@ -1,0 +1,16 @@
+OASISFormat: 0.4
+Name:        gb_uptime_report
+Version:     0.1
+Synopsis:    Parser of 1Gb.ru uptime reports
+Authors:     Evgenii Lepikhin
+License:     LGPL-3.0
+Plugins:     META (0.4)
+BuildTools: ocamlbuild
+AlphaFeatures: ocamlbuild_more_args
+BuildDepends: netstring, batteries, calendar
+OCamlVersion: >= 4.01
+
+Library gb_uptime_report
+  Path:       src
+  Modules:    GbUptimeReport
+

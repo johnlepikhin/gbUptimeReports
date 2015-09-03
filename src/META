@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: a1ec02c0493a1fc1f0d9abb7739c8462)
+version = "0.1"
+description = "Parser of 1Gb.ru uptime report"
+requires = "netstring batteries calendar"
+archive(byte) = "gb_uptime_report.cma"
+archive(byte, plugin) = "gb_uptime_report.cma"
+archive(native) = "gb_uptime_report.cmxa"
+archive(native, plugin) = "gb_uptime_report.cmxs"
+exists_if = "gb_uptime_report.cma"
+# OASIS_STOP
+
